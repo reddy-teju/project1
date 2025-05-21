@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" contents="width=device-width, initial-scale" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="">First Name</label></td>
+            <td>
+              <input type="text" required placeholder="Eg.Teju" />
+              <span>Enter your name</span>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Surname</label></td>
+            <td><input type="text" placeholder="Eg.Pulla" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Mobile Number</label></td>
+            <td>
+              <input type="tel" required placeholder="Eg.998-524-907" />
+              <span>Enter your mobile number</span>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Email</label></td>
+            <td>
+              <input type="email" required placeholder="Eg.teja@gmail.com" />
+              <img id="valid" src="ok.jpg" alt="" />
+              <img id="invalid" src="no.jpg" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Password</label></td>
+            <td>
+              <input type="password" required placeholder="min 8 characters" />
+              <span>Enter password</span>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Confirm Password</label></td>
+            <td>
+              <input type="password" required placeholder="min 8 characters" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">DOB</label></td>
+            <td>
+              <input type="date" required />
+              <span>Enter your DOB</span>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+              <input type="radio" name="Gender" id="Male" />Male
+              <input type="radio" name="Gender" id="Female" />Female
+              <input type="radio" name="Gender" id="others" />Others
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Select Country</label></td>
+            <td>
+              <select name="" id="">
+                <option value="">India</option>
+                <option value="">USE</option>
+                <option value="">China</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Upload File</label></td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td><input type="reset" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Course</legend>
+        <table>
+          <tr>
+            <td><label for="">Select Course</label></td>
+            <td>
+              <select name="" id="">
+                <option value="">JAVA</option>
+                <option value="">python</option>
+                <option value="">C++</option>
+                <option value="">C</option>
+                <option value="">MYSQL</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Delevery Mode</td>
+            <td><input type="radio" />Online <input type="radio" />Offline</td>
+          </tr>
+          <tr>
+            <td><label for="comments">comments</label></td>
+            <td>
+              <textarea name="comment" id="" rows="4" cols="50"></textarea>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <table>
+        <tr>
+          <td><input type="submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
